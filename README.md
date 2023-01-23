@@ -38,3 +38,17 @@ I also believe alot is to be learnt from the gaming industry as they have the cr
 
 >  Financial Management 
 * finance management    (xero)
+
+|Keys|Action|
+|:-|:-|
+|ESC|escape dialogue or mode|
+|h|left|
+|j|up|
+|k|down|
+|l|right|
+|&#2190|left|
+|&#2191|up|
+|&#2193|down|
+|&#2192|right|
+|C w|close tab|
+|C W|close all tabs|
