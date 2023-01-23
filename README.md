@@ -38,5 +38,3 @@ I also believe alot is to be learnt from the gaming industry as they have the cr
 
 >  Financial Management 
 * finance management    (xero)
-
-f

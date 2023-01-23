@@ -1,0 +1,4 @@
+Keys,Action
+C w,close tab
+C W,close all tabs
+M q,quit window
