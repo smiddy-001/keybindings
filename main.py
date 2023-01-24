@@ -3,16 +3,17 @@ import csv
 import pyperclip
 
 #   constant arrays that are full of the keys and commands corresponding to their array pos
-KEYS                    = []
-MODE                    = []
-ACTION                  = []
-README_BACKUP           = './src/readme.md'
-LOGS                    = './src/logs.txt'
-README                  = './README.md'
+KEYS = []
+MODE = []
+ACTION = []
+README_BACKUP = './src/readme.md'
+LOGS = './src/logs.txt'
+README = './README.md'
 
-DEFAULT_KEYBIND_LIST    = '<div id="big-list-of-keybindings"></div>'
+DEFAULT_KEYBIND_LIST = '<div id="big-list-of-keybindings"></div>'
 
-DATA_LOCATION           = './src/data.csv'
+#   file location of keybinds
+DEFAULT_KB = './src/keybinds/default.csv'
 
 #   opens the csv and puts its data into a temporary list called tList
 tList = []
@@ -35,7 +36,7 @@ for i in range(len(tList)):
 #   |:-|:-|
 #   |C w|close tab|
 #   |C W|close all tabs|
-#   |M q|quit window|   
+#   |M q|quit window|
 #
 
 #   tReturn is the val passed into return later...
