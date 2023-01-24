@@ -1,12 +1,20 @@
 import csv
+import pyperclip
 
 #   constant arrays that are full of the keys and commands corresponding to their array pos
-KEYS        = []
-ACTION    = []
+KEYS            = []
+ACTION          = []
+DATA_LOCATION   = './root-keybinds/data.csv'
+
+def appendtoreadme(text):
+    file_readme = open(DATA_LOCATION, "a")
+    file_readme.write(text)
+    file_readme.close
+
 
 #   opens the csv and puts its data into a temporary list called tList
 tList = []
-with open('./root-keybinds/data.csv', newline='') as csvfile:
+with open(DATA_LOCATION, newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     for row in spamreader:
         tList.append(row)
@@ -34,4 +42,9 @@ for characters_in_list in range(len(KEYS)):
     tReturn += f"|{KEYS[characters_in_list]}|{ACTION[characters_in_list]}|\n"
 
 #   tReturn is the markdown formated list
-print(tReturn)
+print(f'{tReturn} \nwhat do you want done with the output:\n\n1.  copy to clipboard\n2.  append to README.md\n')
+if input("Type 1 or 2: ") == '1':
+    print('copied to clipboard')
+    pyperclip.copy(tReturn)
+else:
+    print('appending to readme.md')
