@@ -1,0 +1,13 @@
+|Keys| Mode| Action|
+|:-|:-|:-|
+|ESC|Application|escape dialogue or mode|
+|h|Application|left|
+|j|Application|up|
+|k|Application|down|
+|l|Application|right|
+|&larr;|Application|left|
+|&uarr;|Application|up|
+|&darr;|Application|down|
+|&rarr;|Application|right|
+|C-w|Application|close tabApplication|
+|C-W|Application|close all tabs|

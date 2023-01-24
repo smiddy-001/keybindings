@@ -1,0 +1,12 @@
+Keys, Action
+ESC,escape dialogue or mode
+h,left
+j,up
+k,down
+l,right
+&larr;,left
+&uarr;,up
+&darr;,down
+&rarr;,right
+C-w,close tabApplication
+C-W,close all tabs
