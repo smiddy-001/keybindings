@@ -67,9 +67,8 @@ data_into_list = data.split("\n")
 for i in range(len(data_into_list)):
     if data_into_list[i] == DEFAULT_KEYBIND_LIST:
         # print(f'\n\nwe got one on line {i}')
-print
-tNum.append(i)
-# print(i)
+        tNum.append(i)
+    # print(i)
 # print(tReturn)
 tReturn = tReturn.split("\n")
 

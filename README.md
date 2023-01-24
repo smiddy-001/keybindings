@@ -127,6 +127,6 @@ M-q   = META + q
 |&rarr;|right|
 |C-w|close tabApplication|
 |C-W|close all tabs|
-|C-q|help me|
+|C-h|Help|
 
 <div id="big-list-of-keybindings"></div>

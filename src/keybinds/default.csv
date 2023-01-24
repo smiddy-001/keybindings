@@ -10,4 +10,4 @@ l,right
 &rarr;,right
 C-w,close tabApplication
 C-W,close all tabs
-C-q,help me
+C-h,Help
