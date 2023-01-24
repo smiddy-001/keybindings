@@ -14,6 +14,8 @@ I believe a global keybind list for all tasks and actions (2d/3d editing, file m
 
 I took a liking to vim and its excelently orchestrated keybinds especially the hjkl and the consideration to where your fingers should be placed for minimal distance between common keys and ergonomics when two handed typing which meant those who are familiar with the keybinds speed through files and code faster than ever possible with an ordinary IDE.
 
+![heatmap of most common keyboard keys]('https://cdn.arstechnica.net/wp-content/uploads/2014/03/dvorak3.jpg')
+
 ---
 
 ### The Solution
@@ -24,15 +26,14 @@ I also believe alot is to be learnt from the gaming industry as they have the cr
 
 ---
 
-### Every Single Type Of Software Ever... easier said than done
-
 file structure of this project
 
 ```
 keybindings
 │   README.md               -actual readme (with big keybind list)
 │   main.py                 -sets up README.md
-|   LICENSE                 -the liscence
+│   launch.sh               -a uber simple bash script that runs py
+│   LICENSE                 -the liscence
 │
 └───src
 │   │   logs.txt            -logs the output when the py file is run
@@ -46,9 +47,9 @@ keybindings
 
 ---
 
-### Every Single Type Of Software Ever... <sup>(easier said than done)</sup>
+### Every Single Type Of Software Ever <sup>(easier said than done)</sup>
 
-also some apps may need to be split up into their managable components, like video editing and audio editing although they may ship with the same software.
+Some apps may need to be split up into their managable components, like video editing and audio editing although they may ship with the same software. With the intent being I have to change this repo as little as humanly possible and that there is an end to this project where everything will be satisfied.
 
 #### **General Stuff / Web**
 

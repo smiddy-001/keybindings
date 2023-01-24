@@ -1,6 +1,6 @@
-import os
+# import os
 import csv
-import pyperclip
+# import pyperclip  #UNCOMMENT WHEN CLIPBOARD MANAGEMENT IS BACK ON THE ROLL
 
 #   constant arrays that are full of the keys and commands corresponding to their array pos
 KEYS = []
