@@ -1,6 +1,6 @@
 ## keybinding Globalisation Project
 
-'**Application**' & '**OS**' **keybinds** that cross-integrate **_seamlessley_**.
+**Application**' & '**OS**' **keybinds** that cross-integrate **_seamlessley_**.
 
 ### The Problem
 
@@ -50,6 +50,13 @@ keybindings
 
 also some apps may need to be split up into their managable components, like video editing and audio editing although they may ship with the same software.
 
+#### **General Stuff / Web**
+
+| id  | type of service | example app |
+| :-- | :-------------- | :---------- |
+| wbr | web browser     | firefox     |
+| gen | general         | OS          |
+
 #### **Visuals & Animation**
 
 | id  | type of service    | example app |
@@ -83,10 +90,15 @@ also some apps may need to be split up into their managable components, like vid
 
 #### **Financial Management**
 
-| id   | type of service      | example app         |
-| :--- | :------------------- | :------------------ |
-| fim  | financial management | xero                |
-| <!-- | dbm                  | database management |
+| id  | type of service      | example app |
+| :-- | :------------------- | :---------- |
+| fim | financial management | xero        |
+
+#### **Games**
+
+| id  | type of service      | example app |
+| :-- | :------------------- | :---------- |
+| fim | financial management | xero        |
 
 one quick thing before I start spamming keybinds and that. Below is how emacs shortens their keybinds and it is shorter to write. deal with it
 

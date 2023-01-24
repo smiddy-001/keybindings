@@ -1,13 +1,14 @@
-|Keys| Mode| Action|
-|:-|:-|:-|
-|ESC|Application|escape dialogue or mode|
-|h|Application|left|
-|j|Application|up|
-|k|Application|down|
-|l|Application|right|
-|&larr;|Application|left|
-|&uarr;|Application|up|
-|&darr;|Application|down|
-|&rarr;|Application|right|
-|C-w|Application|close tabApplication|
-|C-W|Application|close all tabs|
+|Keys| Action|
+|:-|:-|
+|ESC|escape dialogue or mode|
+|h|left|
+|j|up|
+|k|down|
+|l|right|
+|&larr;|left|
+|&uarr;|up|
+|&darr;|down|
+|&rarr;|right|
+|C-w|close tabApplication|
+|C-W|close all tabs|
+|C-q|help me|
