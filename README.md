@@ -14,7 +14,7 @@ I believe a global keybind list for all tasks and actions (2d/3d editing, file m
 
 I took a liking to vim and its excelently orchestrated keybinds especially the hjkl and the consideration to where your fingers should be placed for minimal distance between common keys and ergonomics when two handed typing which meant those who are familiar with the keybinds speed through files and code faster than ever possible with an ordinary IDE.
 
-![heatmap of most common keyboard keys]('https://cdn.arstechnica.net/wp-content/uploads/2014/03/dvorak3.jpg')
+![heatmap of most common keyboard keys](https://cdn.arstechnica.net/wp-content/uploads/2014/03/dvorak3.jpg)
 
 ---
 
