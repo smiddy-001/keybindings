@@ -47,7 +47,7 @@ keybindings
 
 ---
 
-### Every Single Type Of Software Ever <sup>(easier said than done)</sup>
+### Every Single Type Of Software Ever
 
 Some apps may need to be split up into their managable components, like video editing and audio editing although they may ship with the same software. With the intent being I have to change this repo as little as humanly possible and that there is an end to this project where everything will be satisfied.
 
